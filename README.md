@@ -37,10 +37,10 @@ Mermaid diagram:
 
 ```mermaid
 flowchart LR
-  Phone[Android Phone (Hotspot + Viewer App)]
-  ESP[ESP32-Camera Module]
-  Phone ---"Wi‑Fi Hotspot (SSID)"--- ESP
-  ESP ---"HTTP/MJPEG Stream (http://<ip>/stream)"--- Phone
+  Phone["Android Phone<br/>(Hotspot + Viewer App)"]
+  ESP["ESP32 Camera<br/>Module"]
+  Phone -->|Hotspot| ESP
+  ESP -->|Stream| Phone
   subgraph LocalNetwork
     Phone
     ESP
@@ -185,5 +185,3 @@ eas build -p android --profile production
 
 1. Open an issue describing the feature or bug.
 2. Fork and create a topic branch for pull requests.
-
-
