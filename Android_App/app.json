@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Wireless Baby Camera",
+    "slug": "wireless-baby-camera",
+    "scheme": "wirelessbabycamera",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.jayaneetha.wirelessbabycamera",
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ]
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "expo-asset"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "373620f5-e369-41be-b72b-deef0eb0161b"
+      }
+    }
+  }
+}

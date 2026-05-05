@@ -1,0 +1,10 @@
+Arduino/secrets.h
+.expo
+node_modules
+.expo-shared
+dist
+web-build
+coverage
+*.log
+.DS_Store
+Android_App/android

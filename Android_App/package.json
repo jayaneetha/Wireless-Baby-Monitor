@@ -1,0 +1,31 @@
+{
+  "name": "wireless-baby-camera-android",
+  "version": "0.0.1",
+  "private": true,
+  "main": "expo/AppEntry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit",
+    "eas:login": "npx eas login",
+    "eas:configure": "npx eas build:configure",
+    "build:android:preview": "npx eas build -p android --profile preview",
+    "build:android:production": "npx eas build -p android --profile production"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "expo": "~52.0.0",
+    "expo-asset": "~11.0.5",
+    "expo-network": "~7.0.4",
+    "expo-status-bar": "~2.0.1",
+    "react": "18.3.1",
+    "react-native": "0.76.9",
+    "react-native-webview": "13.12.5"
+  },
+  "devDependencies": {
+    "@types/react": "~18.3.12",
+    "typescript": "~5.6.3"
+  }
+}
